@@ -12,7 +12,7 @@ margin-right: 56px;
 .footer-wrapper__google-play-img {
 width: 160px;
 height: 55px;
-background-image: url(/img/footer-link1.jpg);
+background-image:url(../img/footer-link1.jpg);
 transition: box-shadow 250ms ease;
 
 &:hover {
@@ -24,10 +24,11 @@ box-shadow: 0 0 1px 4px rgba(10, 10, 10, 0.1);
 .footer-wrapper__app-store-img {
 width: 165px;
 height: 66px;
-background-image: url(../img/footer-link2.jpg);
+background-image:url(../img/footer-link2.jpg);
+transition: box-shadow 250ms ease;
 
 &:hover {
- border-radius: 10px;
+border-radius: 10px;
 box-shadow: 0 0 1px 2px rgba(10, 10, 10, 0.1);
 }
 
