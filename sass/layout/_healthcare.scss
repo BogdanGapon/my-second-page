@@ -1,0 +1,112 @@
+.healthcare-section {
+padding-top: 79px;
+padding-bottom: 70px;
+margin-bottom: 70px;
+
+}
+
+.title-wrapper {
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.section-healthcare-title {
+margin-bottom: 14px;
+}
+
+.section-healthcare-text {
+ margin-bottom: 46px;
+max-width: 617px;
+text-align: center;
+
+}
+
+.cards-wrapper {
+display: flex;
+
+
+
+}
+
+.card-wrapper {
+position: relative;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 36px 17px;
+width: 278px;
+height: 276px;
+box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
+border-radius: 8px;
+background-color: $text-btn-color;
+
+&:not(:last-child) {
+margin-right: 72px;
+}
+}
+
+.card-wrapper__svg {
+margin-bottom: 58px;
+}
+
+.card__title {
+margin-bottom: 4px;
+
+@include fonts (16px,700,1.37);
+letter-spacing: 0.08em;
+color: $main-color;
+}
+
+.card__text {
+text-align: center;
+@include fonts (12px,400,1.37);
+letter-spacing: 0.08em;
+}
+
+.card-wrapper-figure {
+position: absolute;
+z-index: -1;
+background-color: $main-bg-btn-color;
+
+&.figure-first {
+border-radius: 16px;
+transform: rotate(-30deg);
+left: -22px;
+bottom: -37px;
+width: 65px;
+height: 65px;
+}
+
+&.figure-second {
+width: 96px;
+height: 96px;
+top: 55px;
+right: -41px;
+border-radius: 30px;
+transform: rotate(105deg);
+
+}
+
+&.figure-third {
+width:127px;
+height: 127px;
+bottom: -35px;
+right:-91px ;
+border-radius: 30px;
+transform: rotate(-30deg);
+}
+
+&.figure-fourth {
+width: 65px;
+height: 65px; 
+top: -38px; 
+right: -24px;
+border-radius: 16px;
+transform: rotate(-30deg);
+
+}
+}
+

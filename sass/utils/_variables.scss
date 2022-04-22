@@ -1,0 +1,13 @@
+
+
+$text-color:#616161;
+$main-color:#000000;
+$main-bg-btn-color:#EC5863;
+$header-bg-btn-color:rgb(66, 133, 244);
+$text-btn-color:#FCFDFE;
+
+@mixin fonts($fs, $fw, $lh) {
+    font-size: $fs;
+    font-weight: $fw;
+    line-height: $lh;
+}

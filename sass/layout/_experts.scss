@@ -1,0 +1,125 @@
+.section-experts {
+background-color:#FAFBFD;
+padding-top: 92px;
+padding-bottom: 116px;
+}
+
+.section-experts__container {
+ padding-right: 25px;
+padding-left: 35px;
+
+}
+
+.block-sgi {
+position: relative;
+max-width: 654px;
+margin: 0 auto;
+margin-bottom: 90px;
+
+}
+
+.block-wrapper {
+position: relative;
+ z-index: 4;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+ padding: 25px 57px 20px 67px;
+
+background-color: #fff;
+ box-shadow: 0px 2px 24px rgba(88, 126, 236, 0.15);
+border-radius: 16px;
+}
+
+.column-wrapper {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+
+.column-wrapper__span {
+display: block;
+margin-bottom: 5px;
+@include fonts (36px,700,1.19);
+color: #EC5863;
+}
+
+.columnn-wrapper__text {
+@include fonts (11px,700,1.18);
+text-transform: uppercase;
+color:$text-color;
+letter-spacing: 0.37em;
+}
+
+.block-wrapper__img-block-wrapper1 {
+    position: absolute;
+    z-index: 1;
+    width: 66px;
+    height: 66px;
+    background: $main-bg-btn-color;
+    border-radius: 16px;
+    bottom: -33px;
+    left: -14px;
+    transform: rotate(-30deg);
+
+}
+
+.block-wrapper__img-block-wrapper2 {
+position: absolute;
+width: 95px;
+height: 95px;
+left: 220px;
+top: -30px;
+background: $main-bg-btn-color;
+border-radius: 30px;
+transform: rotate(105deg);
+
+}
+
+.block-wrapper__img-block-wrapper3 {
+position: absolute;
+width: 125px;
+height: 125px;
+right: -58px;
+bottom: -28px;
+background: #EC5863;
+border-radius: 30px;
+transform: rotate(-30deg);
+
+}
+
+.span-blue {
+color: $header-bg-btn-color;
+
+}
+
+.experts-bottom-wrapper {
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.bottom-wrapper {
+margin-right: 104px;
+
+}
+
+.img_wrapper {
+width: 521px;
+height: 284px;
+
+background-image: url(/img/doctors-1.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+border-radius: 8px;
+box-shadow:(0px 2px 2px rgba(0, 0, 0, 0.25));
+
+&:hover {
+box-shadow:(  1px 1px 2px 2px rgba(0, 0, 0, 0.25));
+}
+
+}

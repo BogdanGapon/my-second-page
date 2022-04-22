@@ -1,0 +1,99 @@
+
+header {
+background-color: #FAFBFD;
+}
+
+.flex-container {
+display: flex;
+align-items: center;
+padding-top: 39px;
+padding-bottom: 76px;
+padding-right: 30px;
+}
+
+.backgroun-heder::before {
+content:"";
+display: inline-block;
+position: absolute;
+z-index: 1;
+top:0;
+right:0;
+width: 24%;
+height: 100%;
+background-color: $main-bg-btn-color;
+border-radius: 30px 0 0 0;
+
+}
+
+.logo-wrapper {
+display: flex; 
+align-items: center;
+text-decoration: none;
+
+}
+
+.logo-wrapper__logo {
+margin-right: 5px;    
+}
+
+.logo-wrapper__text {
+margin-right: 281px;
+@include fonts (18px, 700, 1.16); 
+color: $main-bg-btn-color;
+}
+
+.logo-wrapper__text_color-black {
+@include fonts (18px, 700,1.16);
+color: $main-color;
+}
+
+.nav-menu {
+display: flex;
+
+}
+
+.nav-menu__item {
+@include fonts(10px, 700, 1.2);
+font-family: 'Raleway',sans-serif;
+color: $main-color;
+letter-spacing: 0.14em;
+
+&:not(:last-child) {
+margin-right: 38px;
+}
+
+&:nth-child(4) {
+margin-right: 138px;
+}
+
+}
+
+.nav-menu__link {
+text-decoration: none;
+color:$main-color;
+transition: color 250ms linear;
+&:hover {
+color: #EC5863;
+}
+}
+
+.header-btn {
+padding: 14px 29px;
+z-index: 3;
+
+font-family: 'Raleway';
+@include fonts (10px, 800, 1.2);
+letter-spacing: 0.14em;
+color: $text-btn-color;
+background-color: $header-bg-btn-color;
+border: 0px;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 250ms linear;
+&:hover {
+background-color: rgb(81, 146, 250);
+
+    
+}
+
+}
