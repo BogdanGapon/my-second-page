@@ -538,7 +538,7 @@ header {
 .footer-wrapper__google-play-img {
   width: 160px;
   height: 55px;
-  background-image: url(/img/footer-link1.jpg);
+  background-image: url(../img/footer-link1.jpg);
   transition: box-shadow 250ms ease;
 }
 
@@ -550,7 +550,8 @@ header {
 .footer-wrapper__app-store-img {
   width: 165px;
   height: 66px;
-  background-image: url(/img/footer-link2.jpg);
+  background-image: url(../img/footer-link2.jpg);
+  transition: box-shadow 250ms ease;
 }
 
 .footer-wrapper__app-store-img:hover {
