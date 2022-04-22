@@ -1,1 +1,1 @@
-# my-second-page
+Layout without adaptive version.
