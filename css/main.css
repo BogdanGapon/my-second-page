@@ -407,7 +407,7 @@ header {
 .img_wrapper {
   width: 521px;
   height: 284px;
-  background-image: url(/img/doctors-1.jpg);
+  background-image: url(../img/doctors-1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 8px;
